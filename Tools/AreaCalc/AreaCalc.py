@@ -97,19 +97,15 @@ if calcOpti == 9:   # Calculating the volume of a sphere.
 
 if calcOpti == 10:  # Calculating the area of a triangle
     print('\nYou have chosen the option: Triangle')
-    print('Base = Any one of the three sides.')
-    Base = float(input('How Wide is Base: '))
-    print('\nHeight = The distance between the base\nand the corner opposite the Base')
-    Height = float(input('How high is the heigth: '))
-    Answer = Base * Height / 2
+    sideA = float(input('How Wide is aide A: '))
+    sideB = float(input('How Wide is side B: '))
+    Answer = sideA * sideB / 2
     print(f'The Triangle Area is: {Answer:.6f}')
 
 if calcOpti == 11:  # Calculating the volume of a prism.
     print('\nYou have chosen the option: Prism')
-    print('Base = Any one of the three sides.')
-    Base = float(input('How Wide is Base: '))
-    Height = float(input('How high is the heigth: '))
-    print('\nHeight = The distance between the base\nand the corner opposite the Base')
+    sideA = float(input('How Wide is aide A: '))
+    sideB = float(input('How Wide is side B: '))
     Length = float(input('How long is the Prism: '))
-    Answer = Base * Height / 2 * Length
+    Answer = sideA * sideB / 2 * Length
     print(f'The Prism Volume is: {Answer:.6f}')
