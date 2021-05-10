@@ -19,7 +19,7 @@ def getAvarageL(image):
     return np.average(im.reshape(w*h))
 
 
-def covertImageToAscii(fileName, cols, scale, moreLevels, invert):
+def convertImageToAscii(fileName, cols, scale, moreLevels, invert):
     global gscale1, gscale2
 
     image = Image.open(fileName).convert('L')
@@ -107,7 +107,7 @@ def main():
 
     print('Generating ASCII art...')
 
-    aimg = covertImageToAscii(imgFile, cols, scale, args.moreLevels, args.invert)
+    aimg = convertImageToAscii(imgFile, cols, scale, args.moreLevels, args.invert)
 
     f = open(outFile, 'w')
 
