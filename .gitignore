@@ -2,9 +2,9 @@
 # Visual Srudio Code Files
 ###########################
 .vscode.code-workspace
-.vscode
 
 ###########################
 # Folders
 ###########################
-tmp
+.vscode/
+tmp/
