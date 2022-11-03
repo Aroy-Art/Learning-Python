@@ -79,7 +79,7 @@ def convertImageToAscii(fileName, cols, scale, moreLevels, invert):
 
 def main():
 
-    descStr = "This sript converts an image into ASCII art."
+    descStr = "This script converts an image into ASCII art."
     parser = argparse.ArgumentParser(description=descStr)
 
     parser.add_argument('--file', dest='imgFile', required=True)
