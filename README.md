@@ -37,7 +37,7 @@ An example of how you can make explosions in pygame zero.
 
 <u>**How to run:**</u>
 
-To run the example you need PyGame Zero. You can install it by runnig this command:
+To run the example you need PyGame Zero. You can install it by running this command:
 >$ pip3 install pgzero
 
 And to run the example run this command in the main folder:
