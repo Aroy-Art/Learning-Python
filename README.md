@@ -27,7 +27,9 @@ An example of what forms it can calculate:
 
 ## Image-to-PDF
 
->$ pip3 install img2pdf
+```bash
+    pip3 install img2pdf
+```
 
 # Particles
 
