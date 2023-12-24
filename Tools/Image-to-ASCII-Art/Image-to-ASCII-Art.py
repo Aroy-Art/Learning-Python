@@ -86,7 +86,7 @@ def main():
     parser.add_argument('--scale', dest='scale', required=False)
     parser.add_argument('--out', dest='outFile', required=False)      
     parser.add_argument('--cols', dest='cols', required=False)
-    parser.add_argument('--invert', dest='invert', required=False)
+    parser.add_argument('--invert', dest='invert', action='store_true')
     parser.add_argument('--moreLevels', dest='moreLevels', action='store_true')
 
     args = parser.parse_args()
